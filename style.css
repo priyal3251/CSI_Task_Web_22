@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 5px;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image: url(../background.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: beige;
+    border: 1px solid beige;
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 30px;
+    transition: 0.5s ease; 
+}
+
+ul li a:hover{
+    background-color:navy;
+    color: beige;
+}
+
+.logo img{
+    float: left;
+    width: 200px;
+}
+
+body{
+    background-image: url(../background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: beige;
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+}
